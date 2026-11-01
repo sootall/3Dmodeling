@@ -1,0 +1,38 @@
+[
+  {
+    "title": "鳳凰/陶瓷3D列印模型",
+    "category": [
+      "3D Modeling"
+    ],
+    "concept": "利用列印技術突破傳統手捏陶限制",
+    "modelUrl": "assets/3D-1.stl",
+    "compressedModelUrl": "models/3D-1.stl.gz"
+  },
+  {
+    "title": "鳳凰蛋/加濕器外罩設計",
+    "category": [
+      "3D Modeling"
+    ],
+    "concept": "利用參數化3D建模技術製作外罩，結合陶瓷不上釉會吸水的特性減少上方因為接觸水霧而容易有水滴產生的問題",
+    "modelUrl": "assets/3D-2.stl",
+    "compressedModelUrl": "models/3D-2.stl.gz"
+  },
+  {
+    "title": "噴霧槍/3D建模練習",
+    "category": [
+      "3D Modeling"
+    ],
+    "concept": "利用多種複合曲面組合建立實體模型",
+    "modelUrl": "assets/3D-3.stl",
+    "compressedModelUrl": "models/3D-3.stl.gz"
+  },
+  {
+    "title": "攝影機/3D建模練習",
+    "category": [
+      "3D Modeling"
+    ],
+    "concept": "利用擠出與布林運算所建立的實體",
+    "modelUrl": "assets/3D-4.stl",
+    "compressedModelUrl": "models/3D-4.stl.gz"
+  }
+]

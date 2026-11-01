@@ -1,0 +1,3 @@
+const reduced=matchMedia('(prefers-reduced-motion: reduce)');let paused=reduced.matches;const viewers=[];const motion=document.querySelector('#motion');
+function syncMotion(){document.body.classList.toggle('paused',paused);motion.textContent=paused?'開啟動態 ▷':'暫停動態 Ⅱ';motion.setAttribute('aria-pressed',String(paused))}syncMotion();motion.onclick=()=>{paused=!paused;syncMotion()};reduced.addEventListener('change',e=>{paused=e.matches;syncMotion()});
+const progress=document.querySelector('.progress');function updateScroll(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%'}addEventListener('scroll',updateScroll,{passive:true});updateScroll();
